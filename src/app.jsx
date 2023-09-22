@@ -15,7 +15,6 @@ function App() {
   }
 
   const [containerData, setContainerData] = useState();
-  const [apiData, setApiData] = useState(mockData);
   const [isLoading, setIsLoading] = useState(false);
   const [containerNumber, setContainerNumber] = useState('');
   const [hasSearched, setHasSearched] = useState(false);
